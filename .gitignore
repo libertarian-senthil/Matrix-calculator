@@ -1,0 +1,10 @@
+# This file is to neglect the temporary and unnecessart files or folders.
+
+# This neglects the virtual environment configuration.
+.venv
+
+# This neglects the visual studio code configuration.
+.vscode
+
+# This neglects the __pychache__ folder
+matrix_project/matrix/__pycache__
