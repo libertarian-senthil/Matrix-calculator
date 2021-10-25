@@ -3,7 +3,7 @@
 
 while True:
     """ Loop terminates only if there's no invalid input """
-    
+
     print("""\
         ********************Matrix Calculator******************
             1. Addition
@@ -19,7 +19,7 @@ while True:
     else:
          break
 
-# Processing the input to the option
+# Processing the input to the option.
 if option == 1:
     print("addition") #test code
 elif option ==2:
@@ -31,4 +31,4 @@ elif option == 4:
 elif option == 5:
     print("Exited") 
 else: 
-    print("Invalid input")
+    print("Invalid input") 
