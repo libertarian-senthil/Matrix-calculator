@@ -33,7 +33,8 @@ class arithmetic:
     def add(self, dim):
         """ Returns addition of two arrays of same dimension """
         self.arr_a= matrix(dim, dim) # Error spot
-        self.result= np.add(self.arr_a, self.arr_a)
+        self.arr_b= matrix(dim, dim)
+        self.result= np.add(self.arr_a, self.arr_b)
         return self.result
     
     def sub(self, row, column):
