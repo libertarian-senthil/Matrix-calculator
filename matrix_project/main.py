@@ -1,6 +1,8 @@
 # Creating a cmd line interface for application.
 #  This module gets options for the matrix calculation and finally displays the result.
 
+from matrix import arithmetic # Error code 
+
 while True:
     """ Loop terminates only if there's no invalid input """
 
@@ -22,6 +24,8 @@ while True:
 # Processing the input to the option.
 if option == 1:
     print("addition") #test code
+    a= arithmetic()
+    print(a.add(3))
 elif option ==2:
     print("Subtraction") #test code
 elif option == 3:
