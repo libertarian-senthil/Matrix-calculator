@@ -2,3 +2,4 @@
 
 # Current version of the project.
 __version__ = "0.1.0" # Lastly updated on 25th oct 2021.
+__author__ = ["S.Senthilnathan", "S.Ramachandran", "G.Deepika", "G.Sakthi swetha", "S.Thanushri"]
