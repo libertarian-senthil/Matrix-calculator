@@ -7,7 +7,7 @@ Thanks for visiting and helping in development of this project. Here are few ins
 
 - Incase "if the module is not going to be a part of the current version development and may included in the furture", you must comment the first line of the module as `Status: not-active`. So that a new developer might not get confused.  
 
-- Docstring must be declared for each and every `class` and `function`.  
+- `Docstring` must be declared for each and every `class` and `function`.  
 
 - This project always encourges you to follow the [__PEP 08__](https://www.python.org/dev/peps/pep-0008/) standard guidlines for code readability.  
 
