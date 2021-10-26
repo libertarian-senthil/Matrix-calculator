@@ -3,7 +3,6 @@ Thanks for visiting and helping in development of this project. Here are few ins
 --
 
 ## Instructions to be followed:
----  
 - Always while creating or working on a module on the first line comment the following statement `Status: active`.  
 
 - Incase "if the module is not going to be a part of the current version development and may included in the furture", you must comment the first line of the module as `Status: not-active`. So that a new developer might not get confused.  
