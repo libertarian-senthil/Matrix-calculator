@@ -4,26 +4,6 @@
 import numpy as np
 from mat_input import *
 
-# from mat_input import matrix # Error spot 
-
-# following snippet is takn from the matrix_project\matrix\mat_input.py 
-# Uncommenting the following snippet might lead to confusion.
-# the snnippet is commented on testing purpose.
-"""
-def matrix(row, column):
-    ''' matrix addition'''
-    while True:
-        emp_arr = np.zeros((row, column), dtype=np.int64)
-        try:
-            for i in range(row):
-                for j in range(column):
-                    e = int(input(f"a[{i}][{j}]: "))
-                    emp_arr[i][j] = e
-            return emp_arr
-        except ValueError:
-            print("You've given a incorrect input")
-"""
-
 class arithmetic:
     """ Class returns the arithmetic operations for matrices """
     
