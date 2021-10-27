@@ -5,8 +5,8 @@
 
 ## Table of content
 
-1. [Current version](##Current-version)  
-2. [Current progrees](##current-progress)
+1. [Current version](#Current-version)  
+2. [Current progress](#Current-progress)
 
 ## Current version
 The current version of the project is `version-0.1.0`.
