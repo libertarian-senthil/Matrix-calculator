@@ -1,7 +1,7 @@
 # Creating a cmd line interface for application.
 #  This module gets options for the matrix calculation and finally displays the result.
 
-from matrix import arithmetic # Error code 
+from arithmetic import * # Error code 
 
 while True:
     """ Loop terminates only if there's no invalid input """

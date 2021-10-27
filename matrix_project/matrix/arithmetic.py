@@ -2,7 +2,9 @@
 # All the matrices calculations are done here.
 
 import numpy as np
-from mat_input import matrix # Error spot 
+from mat_input import *
+
+# from mat_input import matrix # Error spot 
 
 # following snippet is takn from the matrix_project\matrix\mat_input.py 
 # Uncommenting the following snippet might lead to confusion.
@@ -43,4 +45,4 @@ class arithmetic:
 # Drive code.
 if __name__ == '__main__':
     a= arithmetic()
-    print(a.add(2))    
+    print(a.add(1))    
