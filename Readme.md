@@ -1,11 +1,11 @@
 # Matrix Calculator:  
 
 <details>
-  <summary><b>Table of content</b></summary>
-
-1. [Current version](#Current-version)  
-2. [Current progress](#Current-progress)  
-3. [Overview](#Overview)
+  <summary><b>Table of content</b></summary>  
+  
+1. [Overview](#Overview)
+2. [Current version](#Current-version)  
+3. [Current progress](#Current-progress)  
 </details>  
 
 
