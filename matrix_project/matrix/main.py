@@ -3,6 +3,7 @@
 #  This module gets options for the matrix calculation and finally displays the result.
 
 from arithmetic import * 
+from formula import *
 
 while True:
     """ Loop terminates only if there's no invalid input """
@@ -13,7 +14,8 @@ while True:
             2. Subtraction
             3. Multiplication
             4. Square of matrix 
-            5. Exit
+            5. Transpose of matrix
+            6. Exit
         """)
     try:
         option= eval(input("Enter an option: "))
@@ -37,9 +39,13 @@ elif option == 3:
     print(c.multi(2))
 elif option == 4:
     print("square of A") #test code
-    d = arithmetic()
+    d = formula()
     print(d.square(2))
 elif option == 5:
+    print("transpose")
+    e = formula()
+    print(e.transpose(2))
+elif option == 6:
     print("Exited") 
 else: 
     print("Invalid input") 
