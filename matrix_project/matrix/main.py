@@ -11,7 +11,7 @@ while True:
             1. Addition
             2. Subtraction
             3. Multiplication
-            4. Division
+            4. Square of matrix 
             5. Exit
         """)
     try:
@@ -25,13 +25,19 @@ while True:
 if option == 1:
     print("addition") #test code
     a= arithmetic()
-    print(a.add(3))
+    print(a.add(2))
 elif option ==2:
     print("Subtraction") #test code
+    b = arithmetic()
+    print(b.sub(2))
 elif option == 3:
     print("Multiplication") #test code
+    c = arithmetic()
+    print(c.multi(2))
 elif option == 4:
-    print("Divsion") #test code
+    print("square of A") #test code
+    d = arithmetic()
+    print(d.square(2))
 elif option == 5:
     print("Exited") 
 else: 
