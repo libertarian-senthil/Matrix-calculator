@@ -8,7 +8,8 @@
 
 1. [Current version](#Current-version)  
 2. [Current progress](#Current-progress)
-</details>
+</details>  
+
 ## Current version
 The current version of the project is `version-0.1.0`.
 ### features of version-0.1.0  
