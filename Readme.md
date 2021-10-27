@@ -25,5 +25,4 @@ The current version of the project is `version-0.1.0`.
 
 * `arithmetic.py`(matrix_project\matrix\\[arithmetic.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/arithmetic.py)) -> Development of `class arithmetic` is needed.  
 
-* Also found a issue in running [main.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/main.py)) stating that `ModuleNotFoundError`, attention needed to resolve this error.
-
+* \#1 Issue was resolved but it in future the file organisation might be required for `main.py` since it is currently placed inside the `matrix package`.  
