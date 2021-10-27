@@ -9,6 +9,8 @@ Thanks for visiting and helping in development of this project. Here are few ins
 
 - `Docstring` must be declared for each and every `class` and `function`.  
 
+- If a module is currently under development but halted for a reason, last line of the module must comment as yet to be completed.   
+
 - This project always encourges you to follow the [__PEP 08__](https://www.python.org/dev/peps/pep-0008/) standard guidlines for code readability.  
 
 
