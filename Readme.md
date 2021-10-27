@@ -4,7 +4,7 @@
 > Welcome to matrix calculator project. We're focused on developing a GUI based calculator to perform __*Matrix*__ based operations. In today's world there are websites here to do this matrices operations. But we aim at developing this calculator application to be installed on the **PC** so that it is easy to make calculation rather than waiting for an website to load. the key feature of using this application is, it is an open source software, anyone can see the code behind and as a user no need to worry about accepting cookies or visiting or redirected towards an ad-sites, and many more.  
 
 <details>
-  <summary><b>Table of content</b></summary>
+  <summary><h2><b>Table of content</b></h2></summary>
 
 1. [Current version](#Current-version)  
 2. [Current progress](#Current-progress)
