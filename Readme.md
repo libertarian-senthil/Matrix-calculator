@@ -25,4 +25,4 @@ The current version of the project is `version-0.1.0`.
 
 * `arithmetic.py`(matrix_project\matrix\\[arithmetic.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/arithmetic.py)) -> Development of `class arithmetic` is needed.  
 
-* #1 Issue was resolved but it in future the file organisation might be required for `main.py` since it is currently placed inside the `matrix package`.  
+* \#1 Issue was resolved but it in future the file organisation might be required for `main.py` since it is currently placed inside the `matrix package`.  
