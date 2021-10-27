@@ -21,10 +21,10 @@ The current version of the project is `version-0.1.0`.
 
 ## Current progress
 
-* `main.py`(matrix_project\\[main.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/main.py)) -> Structure is developed but adding funtionality is on progress.  
+* `main.py`(matrix_project\\[main.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/main.py)) -> Structure is developed with 6 divisions namely 1. Addition, 2. Subtraction, 3. Multiplication, 4.Square of a matrix, 5.Transpose . Such that Square of a matrix to be changed into Exponent of matrix and also transpose funtionality is on progress.  
 
-* `arithmetic.py`(matrix_project\matrix\\[arithmetic.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/arithmetic.py)) -> Development of `class arithmetic` is needed.  
+* `arithmetic.py`(matrix_project\matrix\\[arithmetic.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/arithmetic.py)) -> Development of `class arithmetic` is completed with three operations namely 1. Addition, 2. Subtraction, 3. Multiplication.  
 
 * \#1 Issue was resolved but it in future the file organisation might be required for `main.py` since it is currently placed inside the `matrix package`.  
 
-* Arithmetic operation like addition, subtraction, multiplication and square of a matrix has been included.
+* New file attached to the `matrix package` called (matrix_project\\[formula.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/formula.py)) -> Structure is developed and Square of a matrix is completed but need to change it into exponent and the transpose functionality is on progress.
