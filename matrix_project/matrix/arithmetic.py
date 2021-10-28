@@ -14,7 +14,7 @@ class arithmetic:
     
     def add(self, dim):
         """ Returns addition of two arrays of same dimension """
-        self.arr_a= matrix(dim, dim) # Error spot
+        self.arr_a= matrix(dim, dim) 
         self.arr_b= matrix(dim, dim)
         self.result= np.add(self.arr_a, self.arr_b)
         return self.result
@@ -25,6 +25,7 @@ class arithmetic:
         self.arr_b= matrix(dim, dim)
         self.result= np.subtract(self.arr_a, self.arr_b)
         return self.result
+    
     def multi(self, dim):
         """ Returns multiplication of two arrays of same dimension """
         self.arr_a= matrix(dim, dim) 
@@ -38,4 +39,3 @@ if __name__ == '__main__':
     print(a.add(eval(input("Enter the No. of dimensions:"))))  
     print(a.sub(eval(input("Enter the No.of dimensions:"))))  
     print(a.multi(eval(input("Enter the No. of dimensions:"))))
-    
