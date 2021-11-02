@@ -44,6 +44,7 @@ The current version of the project is `version-0.1.1`.
 5. Transpose  
 6. Exit  
 
+* We can give the input of No. of dimensions in runtime itself which is useful for non-programmers to choose what the dimensions needed, but yet to make multi dimension for multiplication of matrices.
 
 * In `arithmetic.py`(matrix_project\matrix\)[arithmetic.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/arithmetic.py) addtion, subtraction and multiplication methods work has been completed.  
 

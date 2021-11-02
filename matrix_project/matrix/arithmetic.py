@@ -36,7 +36,6 @@ class arithmetic:
 # Drive code.
 if __name__ == '__main__':
     a= arithmetic()
-    print(a.add(2))  
-    print(a.sub(2))  
-    print(a.multi(2))
-    
+    print(a.add(eval(input("Enter the No. of dimensions:"))))  
+    print(a.sub(eval(input("Enter the No.of dimensions:"))))  
+    print(a.multi(eval(input("Enter the No. of dimensions:"))))
