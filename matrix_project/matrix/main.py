@@ -42,8 +42,8 @@ elif option == 4:
     d = formula()
     print(d.square(2))
 elif option == 5:
-    print("transpose")
-    e = formula()
+    print("transpose")   # test code
+    e = formula() 
     print(e.transpose(2))
 elif option == 6:
     print("Exited") 
