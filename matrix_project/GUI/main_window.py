@@ -24,4 +24,4 @@ l2.grid(row= 0, column= 0, padx= 2, pady= 2)
 l1= tk.Label(operations, text="A")
 l1.grid(row= 0, column= 0, padx= 2, pady= 2)
 
-root.mainloop()   
+root.mainloop()
