@@ -3,7 +3,7 @@
 # This module is currently being halted from develpment so, don't improve or develop the contents of this particular module
 
 import numpy as np
-# from matrix import arithmetic 
+ 
 def matrix(row, column):
     ''' matrix addition'''
     while True:
