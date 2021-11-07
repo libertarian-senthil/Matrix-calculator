@@ -20,8 +20,8 @@ class formula:
     
     def trans(self, dim): 
         """ Returns Transpose of two arrays of same dimension """
-        self.arr_a= np.matrix(dim, dim) # Error spot
-        self.result= matrix.T(self.arr_a)
+        self.arr_a= matrix(dim, dim) # Error spot
+        self.result= np.transpose(self.arr_a)
         return self.result
 
 if __name__ == '__main__':
