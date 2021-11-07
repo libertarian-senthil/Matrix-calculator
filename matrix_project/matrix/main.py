@@ -44,9 +44,6 @@ elif option == 4:
     print(division.square(eval(input("Enter the No. of dimensions:"))))
 elif option == 5:
     print("transpose")   # test code
-    # e = formula() 
-    # print(e.trans(2))
-    # print("transpose")
     e = formula()
     print(e.trans(eval(input("Enter the No. of dimensions:"))))
 elif option == 6:
