@@ -20,7 +20,7 @@ class formula:
     
     def trans(self, dim): 
         """ Returns Transpose of two arrays of same dimension """
-        self.arr_a= matrix(dim, dim) # Error spot
+        self.arr_a= matrix(dim, dim) 
         self.result= np.transpose(self.arr_a)
         return self.result
 
