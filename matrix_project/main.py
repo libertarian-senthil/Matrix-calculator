@@ -2,6 +2,7 @@
 # Creating a cmd line interface for application.
 #  This module gets options for the matrix calculation and finally displays the result.
 
+
 from matrix.arithmetic import * 
 from matrix.formula import *
 

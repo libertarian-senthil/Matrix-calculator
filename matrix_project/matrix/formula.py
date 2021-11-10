@@ -1,19 +1,65 @@
 # Status:active
-# All the other formulas are done here
+"""
+Creating a class performing matrix related formulae including square, transpose.
+"""
+
+import os, sys
+
+file_path= "matrix_project\\matrix\\"
+sys.path.append(os.path.dirname(file_path))
 
 import numpy as np
+
 from mat_input import *
 
 class formula:
-    """ Preforms matrix oriented operations """
+    """ 
+    Preforming matrix oriented operations- square of matrix, transpose oof matrix.
+
+    Attributes
+    ----------
+    arr_a : None
+        Creating a matrix using numpy package.
+    arr_b: None
+        Creating a matrix using numpy package.    
     
-    def __init__(self, arr_a = None, arr_b = None):    # Constructor
+    Methods
+    -------
+    square(dim=int)
+        Return Square of two arrays of same dimension
+
+
+    """
+    
+    def __init__(self, arr_a = None, arr_b = None):    
+        """
+        Parameters
+        ----------
+        arr_a : None
+            Creating a matrix using numpy package.
+        arr_b: None
+            Creating a matrix using numpy package.                    
+        """
+
         self.arr_a= np.array(arr_a)
         self.arr_b= np.array(arr_b)
         self.result= None
         
     def  square(self, dim):
-        """ Returns Square of two arrays of same dimension """
+        """
+        Perform squaring of a given matrix.
+
+        Parameters
+        ----------
+        dim : int
+            The dimension of  matrix, for use by the addend or augend.
+        
+        Returns
+        -------
+            Return Square of two arrays of same dimension
+
+        """
+
         self.arr_a= matrix(dim, dim)
         self.result= np.square(self.arr_a)
         return self.result
