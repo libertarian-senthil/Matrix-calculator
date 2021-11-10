@@ -50,13 +50,16 @@ class arithmetic:
     
     def add(self, dim):
         """
-        Perform addition on matrices and return the result of the 
-        addtion of matrices.
+        Perform addition on matrices.
 
         parameters
         ----------
         dim : int
             The dimension of  matrix, for use by the addend or augend.
+        
+        Returns
+        -------
+            An added value of two matrices.
         """
 
         self.arr_a= matrix(dim, dim) 
@@ -74,6 +77,9 @@ class arithmetic:
         dim : int
             The dimension of  matrix, for use by both matrix to be 
             subtracted from another matrix.
+        Returns
+        -------
+            An subtracted value of two matrices.
         """
 
         self.arr_a= matrix(dim, dim) 
@@ -91,6 +97,9 @@ class arithmetic:
         dim : int
             The dimension of  matrix, for use by both matrix to be 
             multiplied.
+        Returns
+        -------
+            An multiplied value of two matrices.
         """
 
         self.arr_a= matrix(dim, dim) 
