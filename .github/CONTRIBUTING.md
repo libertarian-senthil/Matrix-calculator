@@ -13,6 +13,8 @@ Thanks for visiting and helping in development of this project. Here are few ins
 
 - This project always encourges you to follow the [__PEP 08__](https://www.python.org/dev/peps/pep-0008/) standard guidlines for code readability.  
 
+- This project encourages you to follow the [__PEP257__](https://www.python.org/dev/peps/pep-0257/) standard guidlines for docstring declaration.  
+
 
 >These are some main and foremost things that you need to follow, So that you can create a project clean and neat.  
 Thanks for being a part of this project
