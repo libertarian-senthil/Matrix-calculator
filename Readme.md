@@ -30,12 +30,3 @@ The current version of the project is `version-0.1.1`.
 * Additional functionality or formula are added.  
 
 ---
-
-* New module (i.e. file) created to the `matrix package`  called `formula.py` (matrix_project\\[formula.py](https://github.com/libertarian-senthil/Matrix-calculator/blob/main/matrix_project/matrix/formula.py)) -> Structure is developed and Square of a matrix is completed but, it needs to be changed into exponent and the transpose functionality(i.e. method) is on progress.  
-
-* Development of __GUI__ has beginned, A new directory is created under _'matrix_project\GUI'_ directory. Currently `Main_window.py` is under development and it needs more attention.
-
-
-
-
-
