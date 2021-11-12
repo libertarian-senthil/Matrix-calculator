@@ -39,7 +39,8 @@ class arithmetic:
     multi(dim)
         Returns multiplication of two arrays of same dimension.
     """
-    
+    Exit = "process stopped: exited"
+
     def __init__(self, arr_a= None, arr_b= None):
         """
         parameters
@@ -69,6 +70,8 @@ class arithmetic:
         """
 
         self.arr_a= matrix(dim, dim) 
+        if (self.arr_a == ""):
+            return self.Exit
         self.arr_b= matrix(dim, dim)
         self.result= np.add(self.arr_a, self.arr_b)
         return self.result
@@ -88,7 +91,9 @@ class arithmetic:
             An subtracted value of two matrices.
         """
 
-        self.arr_a= matrix(dim, dim) 
+        self.arr_a= matrix(dim, dim)
+        if (self.arr_a == ""):
+            return self.Exit
         self.arr_b= matrix(dim, dim)
         self.result= np.subtract(self.arr_a, self.arr_b)
         return self.result
@@ -108,7 +113,9 @@ class arithmetic:
             An multiplied value of two matrices.
         """
 
-        self.arr_a= matrix(dim, dim) 
+        self.arr_a= matrix(dim, dim)
+        if (self.arr_a == ""):
+            return self.Exit 
         self.arr_b= matrix(dim, dim)
         self.result= np.multiply(self.arr_a, self.arr_b)
         return self.result        
