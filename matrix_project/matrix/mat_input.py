@@ -26,7 +26,7 @@ def matrix(row, column):
                     e = input(f"a[{i}][{j}]: ")
                     if e == "quit":
                         print("Process Stopped: Exited")
-                        return ""
+                        return emp_arr
                     else:
                         emp_arr[i][j] = int(e)
             return emp_arr
