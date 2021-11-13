@@ -1,10 +1,34 @@
-#status:active
-#For checking the upcoming any errors just for trail purpose
-import numpy as np
-array1 = np.array([1, 2, 3])
-array2 = np.array([[1, 2], [3, 4]])
-n = 5
-print(np.multiply(array1,n))
-print(np.multiply(array2,n))
+def Type_cast(data):
+    """
+    Convert the given data type into integer. for use by dimension in other matrix operations.
 
-#yet to be completed
+    Parameters
+    ----------
+    data : String
+        Used for typecasting.
+    
+    Returns
+    -------
+        Return integer value. 
+    """
+    
+    try:
+        Int = int(data)
+    except ValueError:
+        return "Invalid dimension Enter a integer"
+    else:
+        return Int
+
+
+if __name__ == "__main__":
+    a= Type_cast("senthilnathan")
+    b = Type_cast("1")
+
+    if a == int:
+        print(a)
+    else:
+        print("str")
+    if b == int:
+        print(b) 
+    else:
+        print("str")
