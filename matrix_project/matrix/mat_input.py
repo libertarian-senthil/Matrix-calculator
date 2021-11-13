@@ -1,10 +1,10 @@
-#Status: active
+# Status: active
 
 import numpy as np
- 
+
 def matrix(row, column):
-    '''
-    Create a matrix with the given row and column
+    """
+    Creates a matrix with given row and column 
 
     Parameters
     ----------
@@ -16,24 +16,30 @@ def matrix(row, column):
     Return
     ------
         Returns the matrix created 
-    '''
+    """
 
-    while True:
-        emp_arr = np.zeros((row, column), dtype=np.int64)
-        try:
-            for i in range(row):
-                for j in range(column):
-                    e = input(f"a[{i}][{j}]: ")
-                    if e == "quit":
-                        print("Process Stopped: Exited")
-                        return emp_arr
-                    else:
-                        emp_arr[i][j] = int(e)
-            return emp_arr
-        except ValueError:
-            print("You've given a incorrect input")
+    arr = np.zeros((row, column), dtype= np.int64)
+    i = 0
 
+    while i < row:
+        j = 0
+        while j < column:
+            element = input(f"a[{i}][{j}]: ").lower()
+            if element == "quit":
+                print("Process Stopped: Exited")
+                return ""
+            else:
+                try:
+                    int(element)
+                except ValueError:
+                    print("Invalid input enter again or enter quit to exit.")
+                    continue
+                else:
+                    arr[i][j] = element
 
-# Drive code
-if __name__ == '__main__':
-    print(matrix(1, 2))
+            j+= 1
+        i+= 1
+    return arr
+
+if __name__ == "__main__":
+    print(matrix(2, 3))
