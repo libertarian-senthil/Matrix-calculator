@@ -97,7 +97,7 @@ class arithmetic:
         else: 
             return self.result
     
-    def multi(self, dim):
+    def multi(self, row_1, column_1, row_2, column_2):
         """ 
         Perform Multiplication on matrices and return the result of the 
         multiplication of matrices.
@@ -111,9 +111,8 @@ class arithmetic:
         -------
             An multiplied value of two matrices.
         """
-
-        self.arr_a= matrix(dim, dim) 
-        self.arr_b= matrix(dim, dim)
+        self.arr_a= matrix(row_1, column_1) 
+        self.arr_b= matrix(row_2, column_2)
         try:
             self.result= np.multiply(self.arr_a, self.arr_b)
         except: 
