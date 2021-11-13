@@ -26,7 +26,7 @@ def matrix(row, column):
         while j < column:
             element = input(f"a[{i}][{j}]: ").lower()
             if element == "quit":
-                print("Process Stopped: Exited")
+                print("Process Stopped")
                 return ""
             else:
                 try:
