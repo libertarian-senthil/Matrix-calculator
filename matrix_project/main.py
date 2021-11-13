@@ -3,6 +3,7 @@
 This is the CLI(Command Line Interface) for matrix calculator.
 """
 
+from numpy import string_
 from matrix import arithmetic, formula
 
 while True:
@@ -28,48 +29,108 @@ while True:
 oper_arithmetic = arithmetic.arithmetic()
 operation_for = formula.formula()
 
+def Type_cast(data):
+    """
+    Convert the given data type into integer. for use by dimension in other matrix operations.
+
+    Parameters
+    ----------
+    data : String
+        Used for typecasting.
+    
+    Returns
+    -------
+        Return integer value. 
+    """
+    
+    try:
+        Int = int(data)
+    except ValueError:
+        return "Invalid dimension Enter a integer"
+    else:
+        return Int
+
 # Processing the input from the option.
 if option == 1:     # Addition
     print("addition") 
-    ip= input("Enter the No. of dimensions:")
-    if ip == "quit":
+    ip = input("Enter the No. of dimensions:")
+    if ip == "quit": 
         print("Exited")
     else:
-        print(oper_arithmetic.add(eval(ip)))
-        input("Press Enter key to exit... ")
+        val = Type_cast(ip)
+        if val == int:
+            print(oper_arithmetic.add(val))
+            input("Press Enter key to exit... ")
+        else:
+            print("Invalid input: Exited")
+
 elif option == 2:   # Subtraction
     print("Subtraction") 
     ip= input("Enter the No. of dimensions:")
     if ip == "quit":
         print("Exited")
     else:
-        print(oper_arithmetic.sub(eval(ip)))
-        input("Press Enter key to exit... ")
+        val = Type_cast(ip)
+        if val == int:
+            print(oper_arithmetic.sub(val))
+            input("Press Enter key to exit... ")
+        else:
+            print("Invalid input: Exited")
+
 elif option == 3:   # Multiplication
     print("Multiplication") 
     ip= input("Enter the No. of dimensions:")
     if ip == "quit":
         print("Exited")
     else:
-        print(oper_arithmetic.multi(eval(ip)))
-        input("Press Enter key to exit... ")
+        val = Type_cast(ip)
+        if val == int:
+            print(oper_arithmetic.multi(eval(ip)))
+            input("Press Enter key to exit... ")
+        else:
+            print("Invalid input: Exited")
+
 elif option == 4:   # Squaring
     print("square of A") 
     ip= input("Enter the No. of dimensions:")
     if ip == "quit":
         print("Exited")
     else:
-        print(operation_for.square(eval(ip)))
-        input("Press Enter key to exit... ")
+        val = Type_cast(ip)
+        if val == int:
+            print(operation_for.square(eval(ip)))
+            input("Press Enter key to exit... ")
+        else:
+            print("Invalid input: Exited")
+
 elif option == 5:   # Transpose
     print("transpose")   
     ip= input("Enter the No. of dimensions:")
     if ip == "quit":
         print("Exited")
     else:
-        print(operation_for.trans(eval(ip)))
-        input("Press Enter key to exit... ")
+        val = Type_cast(ip)
+        if val == int:
+            print(operation_for.trans(eval(ip)))
+            input("Press Enter key to exit... ")
+        else:
+            print("Invalid input: Exited")
+
 elif option == 6:   # Quit
     print("Exited") 
+
 else: 
     print("Invalid input") 
+
+if __name__ == "__main__":
+    a= Type_cast("senthilnathan")
+    b = Type_cast("1")
+
+    if a == int:
+        print(a)
+    else:
+        print("str")
+    if b == int:
+        print(b) 
+    else:
+        print("str")
