@@ -18,9 +18,9 @@ while True:
             6. Exit
         """)
     try:
-        option= eval(input("Enter an option: "))
-    except NameError:
-        print("Invalid input")
+        option= int(input("Enter an option: "))
+    except ValueError:
+        print("Invalid input Enter the option between 1 and 6: ")
     else:
          break
 
