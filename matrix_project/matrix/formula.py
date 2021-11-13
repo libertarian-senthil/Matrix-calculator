@@ -9,7 +9,7 @@ from mat_input import *
 
 class formula:
     """ 
-    Preforming matrix oriented operations- square of matrix, transpose oof matrix.
+    Preforming matrix oriented operations- square of matrix, transpose of matrix.
 
     Attributes
     ----------
@@ -21,9 +21,9 @@ class formula:
     Methods
     -------
     square(dim=int)
-        Return Square of two arrays of same dimension
-
-
+        Return Square of a matrix.
+    trans(dim:int)
+        Return transpose of a matrix.
     """
     
     def __init__(self, arr_a = None, arr_b = None):    
@@ -50,7 +50,7 @@ class formula:
         
         Returns
         -------
-            Return Square of two arrays of same dimension
+            Return Square of a matrix dimension
 
         """
 
@@ -63,7 +63,19 @@ class formula:
             return self.result
     
     def trans(self, dim): 
-        """ Returns Transpose of two arrays of same dimension """
+        """
+         Return transpose of a matrix
+
+         Parameters
+         ----------
+         dim : int
+            The dimension of  matrix, for use by the addend or augend.
+
+        Returns
+        -------
+            Return transpose of a matrix
+        """
+
         self.arr_a= matrix(dim, dim) 
         try:
             self.result= np.transpose(self.arr_a)
@@ -72,9 +84,9 @@ class formula:
         else:
             return self.result
 
+# Drive code
+# Currently this drive code is invalid needs to be changed
 if __name__ == '__main__':
     a= formula()
     print(a.square(2))
     print(a.transpose(2))
-
-#yet to be completed
