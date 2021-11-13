@@ -68,10 +68,14 @@ class arithmetic:
             An added value of two matrices.
         """
 
-        self.arr_a= matrix(dim, dim) 
+        self.arr_a= matrix(dim, dim)
         self.arr_b= matrix(dim, dim)
-        self.result= np.add(self.arr_a, self.arr_b)
-        return self.result
+        try:
+            self.result= np.add(self.arr_a, self.arr_b)
+        except:
+            return ""
+        else:            
+            return self.result
     
     def sub(self, dim):
         """ 
@@ -90,8 +94,12 @@ class arithmetic:
 
         self.arr_a= matrix(dim, dim) 
         self.arr_b= matrix(dim, dim)
-        self.result= np.subtract(self.arr_a, self.arr_b)
-        return self.result
+        try:
+            self.result= np.subtract(self.arr_a, self.arr_b)
+        except:
+            return ""
+        else: 
+            return self.result
     
     def multi(self, dim):
         """ 
@@ -110,8 +118,12 @@ class arithmetic:
 
         self.arr_a= matrix(dim, dim) 
         self.arr_b= matrix(dim, dim)
-        self.result= np.multiply(self.arr_a, self.arr_b)
-        return self.result        
+        try:
+            self.result= np.multiply(self.arr_a, self.arr_b)
+        except: 
+            return ""
+        else:
+            return self.result        
 
 # Drive code.
 if __name__ == '__main__':
