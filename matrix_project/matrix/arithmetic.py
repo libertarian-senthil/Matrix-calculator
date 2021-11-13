@@ -9,10 +9,6 @@ classes
 arithmetic:
     A class performing arithmetic operations on matrices.
 """
-import os, sys
-
-file_path= "matrix_project\\matrix\\"
-sys.path.append(os.path.dirname(file_path))
 
 import numpy as np
 

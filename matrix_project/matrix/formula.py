@@ -3,11 +3,6 @@
 Creating a class performing matrix related formulae including square, transpose.
 """
 
-import os, sys
-
-file_path= "matrix_project\\matrix\\"
-sys.path.append(os.path.dirname(file_path))
-
 import numpy as np
 
 from mat_input import *
