@@ -114,7 +114,7 @@ class arithmetic:
         self.arr_a= matrix(row_1, column_1) 
         self.arr_b= matrix(row_2, column_2)
         try:
-            self.result= np.multiply(self.arr_a, self.arr_b)
+            self.result= np.matmul(self.arr_a, self.arr_b)
         except: 
             return ""
         else:
