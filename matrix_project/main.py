@@ -122,15 +122,15 @@ elif option == 6:   # Quit
 else: 
     print("Invalid input") 
 
-if __name__ == "__main__":
-    a= Type_cast("senthilnathan")
-    b = Type_cast("1")
+# if __name__ == "__main__":
+#     a= Type_cast("senthilnathan")
+#     b = Type_cast("1")
 
-    if a == int:
-        print(a)
-    else:
-        print("str")
-    if b == int:
-        print(b) 
-    else:
-        print("str")
+#     if a == int:
+#         print(a)
+#     else:
+#         print("str")
+#     if b == int:
+#         print(b) 
+#     else:
+#         print("str")
