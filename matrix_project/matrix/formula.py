@@ -42,7 +42,6 @@ class formula:
         """
 
         self.arr_a= np.array(arr_a)
-        self.arr_b= np.array(arr_b)
         self.result= None
         
     def  square(self, dim):
@@ -61,14 +60,22 @@ class formula:
         """
 
         self.arr_a= matrix(dim, dim)
-        self.result= np.square(self.arr_a)
-        return self.result
+        try:
+            self.result= np.square(self.arr_a)
+        except:
+            return ""
+        else:
+            return self.result
     
     def trans(self, dim): 
         """ Returns Transpose of two arrays of same dimension """
         self.arr_a= matrix(dim, dim) 
-        self.result= np.transpose(self.arr_a)
-        return self.result
+        try:
+            self.result= np.transpose(self.arr_a)
+        except: 
+            return ""
+        else:
+            return self.result
 
 if __name__ == '__main__':
     a= formula()
