@@ -105,7 +105,7 @@ elif option == 3:   # Multiplication
     print("""Multiplication:
 >Enter the dimensions like 2x3 or enter 'quit' to exit the program.
 >Remember column of first matrix must be equal to the row of second matrix
->Any unintended inputs might lead to the program termination or inappropriate output
+>Any unwanted inputs might lead to the program termination or inappropriate output
 """)
     try:
         ip1= input("Enter dimension for first matrix: ").lower()       # getting and converting input to lower case
