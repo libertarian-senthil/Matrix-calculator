@@ -58,7 +58,7 @@ if option == 1:     # Addition
         print("Exited")
     else:
         val = Type_cast(ip)
-        if val == int:
+        if type(val) == int:
             print(oper_arithmetic.add(val))
             input("Press Enter key to exit... ")
         else:
@@ -71,7 +71,7 @@ elif option == 2:   # Subtraction
         print("Exited")
     else:
         val = Type_cast(ip)
-        if val == int:
+        if type(val) == int:
             print(oper_arithmetic.sub(val))
             input("Press Enter key to exit... ")
         else:
@@ -84,8 +84,8 @@ elif option == 3:   # Multiplication
         print("Exited")
     else:
         val = Type_cast(ip)
-        if val == int:
-            print(oper_arithmetic.multi(eval(ip)))
+        if type(val) == int:
+            print(oper_arithmetic.multi(val))
             input("Press Enter key to exit... ")
         else:
             print("Invalid input: Exited")
@@ -97,8 +97,8 @@ elif option == 4:   # Squaring
         print("Exited")
     else:
         val = Type_cast(ip)
-        if val == int:
-            print(operation_for.square(eval(ip)))
+        if type(val) == int:
+            print(operation_for.square(val))
             input("Press Enter key to exit... ")
         else:
             print("Invalid input: Exited")
@@ -110,8 +110,8 @@ elif option == 5:   # Transpose
         print("Exited")
     else:
         val = Type_cast(ip)
-        if val == int:
-            print(operation_for.trans(eval(ip)))
+        if type(val) == int:
+            print(operation_for.trans(val))
             input("Press Enter key to exit... ")
         else:
             print("Invalid input: Exited")
@@ -121,16 +121,3 @@ elif option == 6:   # Quit
 
 else: 
     print("Invalid input") 
-
-# if __name__ == "__main__":
-#     a= Type_cast("senthilnathan")
-#     b = Type_cast("1")
-
-#     if a == int:
-#         print(a)
-#     else:
-#         print("str")
-#     if b == int:
-#         print(b) 
-#     else:
-#         print("str")
